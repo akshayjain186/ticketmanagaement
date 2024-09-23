@@ -37,10 +37,10 @@ A simple ticket management system built using Node.js and MongoDB. This API allo
   npm install
 
 3 Start the Server
-  npm start
-  node app.js
-  npm run dev
-  nodemon app.js
+  --npm start
+  --node app.js
+  --npm run dev
+  --nodemon app.js
 
 API Documentation
 
@@ -72,6 +72,7 @@ Content:
     "updatedAt": "2023-09-23T00:00:00.000Z"
   }
 }
+
 2. Get All Tickets
 Endpoint: GET /tickets
 Description: Retrieve all support tickets.
@@ -91,6 +92,7 @@ Content:
   },
   ...
 ]
+
 3. Get Ticket by ID
 Endpoint: GET /tickets/:id
 Description: Retrieve a specific ticket by its ID.
@@ -114,6 +116,7 @@ Content:
 {
   "error": "Ticket not found"
 }
+
 4. Update Ticket
 Endpoint: PUT /tickets/:id
 Description: Update an existing ticket by its ID.
@@ -139,6 +142,7 @@ Content:
     "updatedAt": "2023-09-23T00:00:00.000Z"
   }
 }
+
 5. Delete Ticket
 Endpoint: DELETE /tickets/:id
 Description: Delete a ticket by its ID.
